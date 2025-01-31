@@ -1,0 +1,69 @@
+
+
+.hero-section {
+    padding: 18px;
+    background: #031703;
+}
+
+
+
+.hero-title {
+    font-family: 'Gardenia';
+    font-weight: 400;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+
+    margin-bottom: 20px;
+}
+.hero-img {
+    max-width: 100%;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
+@media only screen and (min-width: 768px) {
+    .hero-section {
+            padding: 28px;   
+        }
+ .hero-title {
+           
+                 font-size: 100px;
+                    margin-bottom: 36px;
+                }
+.hero-img {
+    width: 500px;
+    height: 300px;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+.hero-section {
+   padding-top: 28px;
+   padding-bottom: 28px;
+   
+}
+
+.hero-title {
+    font-size: 200px;
+
+}
+
+.hero-img {
+    width: 918px;
+    height: 576px;
+
+}
+
+}
