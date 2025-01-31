@@ -33,13 +33,27 @@ img {
   height: auto;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* Styles for Mobile devices */
 .container {
  width: 100%;
   max-width: 375px;
   margin: 0 auto;
-  /*padding: 0 16px;*/
+ 
 }
 
 /* Styles for Tablet devices*/
