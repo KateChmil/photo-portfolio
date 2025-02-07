@@ -1,6 +1,12 @@
 .anim-section {
     background: #d3e59f;
     padding: 120px 102px;
+    width: 1440px;
+    border-radius: 40px;
+    margin: 30px auto;
+}
+body {
+    background-color: #F5FFD9;
 }
 .anim-container {
     margin: 0 auto;

@@ -16,3 +16,4 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(img);
     });
 });
+console.log("JavaScript is working!");
