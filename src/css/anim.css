@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px) {
 .anim-section {
     /*background: #d3e59f;*/
     background-color: #778E4D;
@@ -68,4 +69,5 @@ object-position: center;
 .anim-show {
     opacity: 1;
     transform: translateX(0);
+}
 }
