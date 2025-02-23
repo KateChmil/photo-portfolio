@@ -1,64 +1,56 @@
-@media only screen and (min-width: 768px) {
 .anim-section {
     /*background: #d3e59f;*/
     background-color: #778E4D;
-    padding: 120px 102px;
-    width: 1440px;
-    border-radius: 40px;
-    margin: 30px auto;
+    padding: 20px 30px;
+    max-width: 375px;
+    border-radius: 20px;
+    margin: 10px auto;
 }
+
 body {
     background-color: #F5FFD9;
 }
+
 .anim-container {
     margin: 0 auto;
     display: flex;
-    gap: 95px;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 
 }
+
 .anim-img {
-width: 350px;
-height: 350px;
-border-radius: 15px;
-object-fit: cover;
-object-position: center;
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
 
 }
-
 .anim-1 {
-    display:flex;
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 620px;
-
-
+   
 }
-
-
-
-
-
-
-
 .anim-3 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    height: 620px;
+   
 
 }
+
 .anim-text {
-    font-family: 'YSA-body-font' ;
-        font-weight: 600;
-        font-size: 40px;
-        color: #031703;
+    font-family: 'YSA-body-font';
+    font-weight: 600;
+    font-size: 20px;
+    color: #031703;
 }
-
-
 
 .anim-hidden {
     opacity: 0;
@@ -70,4 +62,68 @@ object-position: center;
     opacity: 1;
     transform: translateX(0);
 }
+
+@media only screen and (min-width: 768px) {
+    .anim-section {
+            
+            padding: 50px 24px;
+            max-width: 768px;
+            border-radius: 40px;
+            margin: 20px auto;
+        }
+
+    .anim-container {
+        flex-direction: row;
+         gap: 40px;}
+  .anim-img {
+      width: 220px;
+      height: 220px;}
+    
+      .anim-1  {
+             flex-direction: column-reverse;
+              height: 400px;
+          }
+    .anim-3 {
+                      flex-direction: column-reverse;
+                      height: 400px;
+                  }
+        .anim-text {
+            
+            font-size: 24px; }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .anim-section {
+
+        padding: 120px 94px;
+        max-width: 1440px;
+        border-radius: 40px;
+        margin: 30px auto;
+    }
+
+    .anim-container {
+        
+        gap: 95px;
+    }
+
+    .anim-img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .anim-1 {
+        flex-direction: column-reverse;
+        height: 620px;
+    }
+
+    .anim-3 {
+        flex-direction: column-reverse;
+        height: 620px;
+    }
+
+    .anim-text {
+
+        font-size: 30px;
+    }
 }

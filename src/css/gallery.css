@@ -13,7 +13,7 @@
 
 .gallery-cont {
     max-width: 375px;
-    margin: 0;
+    margin: 0 auto;
        padding: 12px 36px;
     display: flex;
         align-items: center;
@@ -29,13 +29,6 @@
 
 }
 
-.gallery-header {
-    font-family: 'Gardenia';
-    font-weight: 400;
-    font-size: 60px;
-    color: #e7ffb0;
-    margin-bottom: 20px;
-}
 
 .g-text-div {
     display: flex;
@@ -49,14 +42,38 @@
     font-weight: 400;
     font-size: 20px;
     color: #e7ffb0;
+    text-align: center;
+}
+
+
+.gallery-header {
+    font-family: 'Gardenia';
+    font-weight: 400;
+    font-size: 60px;
+    color: #e7ffb0;
+    margin-bottom: 20px;
 }
 
 
 
+.text-two {
+    overflow: hidden;
+    animation: typing 3s ease-in-out forwards;
+}
 
+@keyframes typing {
+    from {
+        height: 54px;
+        max-width: 0;
+        display: none;
+    }
 
-
-
+    to {
+        height: 162px;
+        display: block;
+        max-width: 546px;
+    }
+}
 
 
 
