@@ -54,7 +54,7 @@ body {
 
 .anim-hidden {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-50%);
     transition: opacity 2s ease-out, transform 2s ease-out;
 }
 
@@ -63,7 +63,10 @@ body {
     transform: translateX(0);
 }
 
+
+
 @media only screen and (min-width: 768px) {
+   
     .anim-section {
             
             padding: 50px 24px;
