@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const animImages = document.querySelectorAll(".anim-img");
+    const animImages = document.querySelectorAll(".anim-hidden");
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
