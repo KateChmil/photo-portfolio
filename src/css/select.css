@@ -1,0 +1,126 @@
+.selection {
+    background-color: #031703;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.select-container {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+}
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.select-header {
+    font-family: 'Gardenia';
+        font-weight: 400;
+        font-size: 60px;
+       
+        letter-spacing: 0.01em;
+        color: #e7ffb0;
+}
+
+.select-text {
+    font-family: 'YSA-body-font';
+        font-weight: 600;
+        font-size: 18px;
+        
+        color: #e7ffb0;
+}
+.photo-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+    
+}
+.select-photo {
+    border-radius: 10px;
+    max-width: 344px;
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+.select-photo:hover {
+    transform: scale(1.1);
+    /* Slightly increases size */
+}
+
+@media only screen and (min-width: 768px) {
+    .select-container {
+            flex-direction: row;
+            align-items: flex-start;
+           
+        }
+        .text-div {
+            gap: 265px;
+        }
+
+        .select-header {
+            font-size: 70px;
+        }
+        .select-text {
+            font-size: 18px;
+        }
+        .photo-div {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 15px;
+            max-width: 455px;
+        }
+        .select-photo {
+            width: 220px;
+        }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .selection {
+            padding-top: 95px;
+            padding-bottom: 95px;
+        }
+.select-container {
+    gap: 24px;
+    padding: 0;
+}
+
+
+
+
+.text-div {
+    gap: 471px;
+    width: 464px;
+}
+
+.select-header {
+    font-size: 100px;
+}
+
+.select-text {
+    font-size: 22px;
+}
+
+
+
+
+ .photo-div {
+   
+     gap: 24px;
+     max-width: 712px;
+ }
+
+ .select-photo {
+     width: 344px;
+ }
+}
