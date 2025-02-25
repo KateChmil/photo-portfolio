@@ -1,0 +1,27 @@
+@import url('./reset.css');
+@import url('./zelect-1.css');
+@import url('./zelect-2.css');
+
+
+
+
+
+@font-face {
+    font-family: 'Gardenia';
+    /* A name you'll use to refer to the font */
+    src: url('../img/fonts/Gardenia-Decor.ttf') format('truetype');
+    /* Path to your font file */
+}
+
+@font-face {
+    font-family: 'YSA-body-font';
+    src: url('../img/fonts/YsabeauSC-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Use the font in your website 
+.hero-title {
+  font-family: 'Gardenia', sans-serif;
+ 
+  font-weight: 400;
+    font-size: 200px;
+}*/
