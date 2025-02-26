@@ -6,7 +6,7 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 
 
 const images = [
-  { src: './img/selection1/DSC_6826.jpg', description: 'Image 1' },
+  { src: './selection1/DSC_6826.jpg', description: 'Image 1' },
   { src: './img/selection1/DSC_6828.jpg', description: 'Image 2' },
   { src: './img/selection1/DSC_6830.jpg', description: 'Image 3' },
   { src: './img/selection1/DSC_6831.jpg', description: 'Image 4' },
