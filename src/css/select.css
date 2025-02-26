@@ -77,7 +77,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             gap: 15px;
-            max-width: 415px;
+            width: 415px;
         }
         .select-photo {
             width: 200px;
