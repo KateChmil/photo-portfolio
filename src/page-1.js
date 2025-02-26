@@ -7,7 +7,7 @@ const gallery = document.querySelector('.gallery');
 
 
 // Initialize SimpleLightbox
-const lightbox = new SimpleLightbox('.gallery a')
+const lightbox = new SimpleLightbox('.gallery a');
 
 
 
