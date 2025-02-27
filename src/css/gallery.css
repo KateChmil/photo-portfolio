@@ -133,3 +133,21 @@
     
   }
 }
+
+
+
+.footer {
+    background-color: aquamarine;
+    padding: 30px 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+.footer-container {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #e7ffb0;
+}
