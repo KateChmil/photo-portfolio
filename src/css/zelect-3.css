@@ -7,7 +7,7 @@ body {
 }
 
 .ph-section {
-    background-color: #2F693F;
+    background-color: #D4BCA6;
 }
 
 .ph-container {
@@ -30,12 +30,12 @@ body {
 }
 
 .ph-button {
-    background-color: #578E65;
+    background-color: #C09B7B;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #031703;
+    border: 1px solid #A98260;
     border-radius: 20px;
     padding: 16px 24px;
 
