@@ -1,0 +1,175 @@
+.aboutme {
+    background: #031703;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-container {
+ display: flex;
+ flex-direction: column;
+ padding: 30px 20px;
+
+ gap:80px;
+}
+
+.text-div {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.aheader-div {
+    display: flex;
+    flex-direction: column;
+}
+.line-div {
+    display: none;
+}
+.about-header {
+    font-family: 'Gardenia';
+        font-weight: 400;
+        font-size: 60px;
+        color: #fff;
+}
+
+.atext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-text {
+    font-family: 'YSA-body-font';
+        font-weight: 300;
+        font-size: 20px;
+        text-align: justify;
+        color: #fff;
+}
+
+
+
+
+@media only screen and (min-width:768px) {
+.aboutme-container {
+      
+        flex-direction: row;
+        padding: 40px 20px;
+
+        gap: 40px;
+    }
+
+    .text-div {
+ 
+        gap: 20px;
+    }
+
+    .aheader-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .line-div {
+        display: flex;
+        width: 200px;
+        height: 2px;
+        border-top: 2px solid #fff;
+    }
+
+    .about-header {
+        font-family: 'Gardenia';
+        font-weight: 400;
+        font-size: 60px;
+        color: #fff;
+    }
+
+    .atext {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-text {
+    
+        font-weight: 300;
+        font-size: 20px;
+       
+    }
+
+
+        .me-img {
+            width: 300px;
+            height: 430px;
+        }
+}
+
+
+
+@media only screen and (min-width:1200px) {
+    .aboutme-container {
+
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 20px;
+
+        gap: 86px;
+    }
+
+    .text-div {
+      
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+
+        width: 600px;
+    }
+
+    .aheader-div {
+        display: flex;
+        flex-direction: row;
+        align-items: space-between;
+        justify-content: space-between;
+        gap: 50px;
+        width: 600px;
+    }
+
+    .line-div {
+        display: flex;
+        width: 250px;
+        height: 3px;
+        border-top: 3px solid #fff;
+    }
+
+    .about-header {
+        font-family: 'Gardenia';
+        font-weight: 400;
+        font-size: 120px;
+        color: #fff;
+    }
+
+    .atext {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-text {
+      width: 600px;
+     height: 213px;
+
+
+        font-weight: 300;
+        font-size: 20px;
+      
+    
+    }
+
+
+    .me-img {
+        width: 418px;
+            height: 560px; }
+}

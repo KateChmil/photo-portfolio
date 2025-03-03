@@ -7,7 +7,8 @@ body {
 }
 
 .pf-section {
-    background-color: #2F693F;
+    background-color: #90994A;
+  
 }
 
 .pf-container {
@@ -30,7 +31,7 @@ body {
 }
 
 .pf-button {
-    background-color: #578E65;
+    background-color: #5D682E;
 
     display: flex;
     justify-content: center;
