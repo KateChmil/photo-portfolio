@@ -1,1 +1,1 @@
-{"version":3,"file":"page-2.js","sources":["../src/page-2.js"],"sourcesContent":["import SimpleLightbox from \"simplelightbox\";\nimport \"simplelightbox/dist/simple-lightbox.min.css\";\n\n\n\nconst gallery = document.querySelector(\".gallery\");\n\n\n// Initialize SimpleLightbox\nconst lightbox = new SimpleLightbox(\".gallery a\");\n"],"names":["SimpleLightbox"],"mappings":"kJAKgB,SAAS,cAAc,UAAU,EAIhC,IAAIA,EAAe,YAAY"}
+{"version":3,"file":"page-2.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
